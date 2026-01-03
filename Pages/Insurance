@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Medical Insurance | SympTrace</title>
+</head>
+<body>
+    <nav>
+        <h2 style="color:white">SympTrace</h2>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="doctors.html">Appointments</a>
+            <a href="bmi.html">Explore Wellness</a>
+            <a href="insurance.html">Insurance</a>
+			<a href="contact.html">Contact</a>
+        </div>
+    </nav>
+	
+	<section>
+        <center><h1>Why Insured!</h1></center>
+        <div class="card-grid">
+        </div>
+		<div class="grid wide-format"data-aos="fade-down">
+			<div class="grid-image">
+			<img src="wi.jpg" alt="Medical Professional">
+			</div>
+			<div class="grid-content">
+        <center><h2>Your Health Maters</h2>
+        <p>Health insurance provides a vital financial safety 
+		net, protecting your family from the burden of high medical
+		costs and unexpected hospitalization bills.
+ By securing a plan, you gain priority access to top-tier specialists
+ and private clinics, bypassing long waiting periods during emergencies.
+ Most modern coverage also emphasizes preventative care, offering free
+ annual checkups and laboratory screenings to detect illnesses early.
+ It ensures total peace of mind, knowing that quality healthcare is always
+ affordable and accessible when you need it most. Ultimately, insurance is
+ an investment in your future, securing your financial stability 
+		while prioritizing your long-term physical well-being.</p></center>
+    </div>    
+            </div>
+    </section>
+	
+    <section>
+        <center>
+            <h1>Insurance & Coverage</h1>
+            <p>Select a plan that fits your family's needs. All plans include 24/7 tele-consultation.</p>
+        </center>
+        <div class="card-grid">
+            <div class="grid wide-format"data-aos="fade-right">
+			<div class="grid-image">
+			<img src="bi.jpg" alt="Medical Professional">
+			</div>
+			<div class="grid-content">
+        <h3>Basic Shield</h3>
+        <p><strong>Rs:25,000/month</strong></p>
+                <ul>
+                    <li>General Checkups</li>
+                    <li>Basic Lab Tests</li>
+                    <li>10 Million Limit</li>
+                </ul>
+                <button>Select Plan</button>
+    </div>    
+            </div>
