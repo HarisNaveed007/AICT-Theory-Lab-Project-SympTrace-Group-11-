@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Wellness Solutions | SympTrace</title>
+</head>
+<body>
+    <nav>
+        <h2 style="color:white">SympTrace</h2>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="doctors.html">Appointments</a>
+            <a href="bmi.html">Explore Wellness</a>
+            <a href="insurance.html">Insurance</a>
+			<a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <section style="max-width: 600px; margin: auto;">
+        <h2>Advanced BMI Calculator</h2>
+        <div class="grid-1">
+            <label>Weight (kg)</label>
+            <input type="number" id="wInput" placeholder="e.g. 70">
+            <label>Height (cm)</label>
+            <input type="number" id="hInput" placeholder="e.g. 175">
+            <button onclick="calcBMI()" style="width:100%">Calculate Result</button>
+            <div id="resultDisplay" style="margin-top:20px; padding: 15px; border-radius: 8px; display: none;"></div>
+        </div>
+		<h2>PharmaFlow</h2>
+        <form onsubmit="alert('Your Order is on the way!!!'); return false;"
+		id="bookingForm-ph">
+            <div style="display: flex; gap: 20px;">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+            </div>
+            <input type="email" placeholder="Email Address" required>
+			<input type="digits" placeholder="Phone" required>
+			<input type="Address" placeholder="e.g. 456 Health St, Boston, MA 02118" required>
+			
+			<select>
+                <option>Choose Your Delivery Type ...</option>
+                <option>Turtle(3 hrs(Rs.300/-))</option>
+                <option>Flash(40 Mins(Rs.800/-))</option>
+            </select>
+            <input type="date">
+            <textarea placeholder="Your Order..." rows="4"></textarea>
+            <button type="submit">Confirm Order</button>
+        </form>
+    </section>
