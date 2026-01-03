@@ -48,3 +48,56 @@
             <button type="submit">Confirm Order</button>
         </form>
     </section>
+
+	<footer>
+        <div class="footer-logo">
+            <h2>SympTrace</h2>
+            <p class="footer-tagline">Empowering health</p>
+        </div>
+        
+        <div class="footer-links">
+            
+            <div class="footer-column">
+                <h4>Details</h4>
+				<a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+            </div>
+			<div class="footer-column">
+                <h4>Platform</h4>
+                <a href="doctors.html">Appointment</a>
+				<a href="insurance.html">Insurance</a>
+				<a href="bmi.html">Explore Wellness</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+        function calcBMI() {
+            let w = document.getElementById('wInput').value;
+            let h = document.getElementById('hInput').value / 100;
+            let res = document.getElementById('resultDisplay');
+            
+            if(w && h) {
+                let bmi = (w / (h * h)).toFixed(1);
+                let category = "";
+                let color = "";
+
+                if(bmi < 18.5) { category = "Underweight"; color = "blue"; }
+                else if(bmi < 25) { category = "Healthy Weight"; color = "green"; }
+                else { category = "Overweight"; color = "red"; }
+
+                res.style.display = "block";
+                res.style.backgroundColor = color;
+                res.style.color = "white";
+                res.innerText = `Your BMI is ${bmi} (${category}).`;
+            }
+        }
+    </script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+</html>
