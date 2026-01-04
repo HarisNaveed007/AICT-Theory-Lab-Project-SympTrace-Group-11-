@@ -100,9 +100,10 @@ section
     color: white !important;
     margin-bottom: 15px;
 }
-.grid-content p
+.grid-content p {
     margin-bottom: 25px;
     font-size: 1.1rem;
+}
 .btn-appointment 
 {
     background: transparent;
