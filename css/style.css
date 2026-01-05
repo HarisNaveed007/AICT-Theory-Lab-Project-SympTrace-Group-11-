@@ -26,6 +26,8 @@ nav a:hover { color: var(--secondary);
     background-size: cover; color: white; 
     text-align: center; 
 }
+.center-text 
+{ text-align: center; }
 /* Content Sections */
 section 
 {
