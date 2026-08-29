@@ -1,13 +1,42 @@
-Group Number: 11
-Group Member:
-1,Muhammad Haris(lead)
-reg id:251201013
-batch:DS-02
-2,Saad ali
-reg id:251201044
-batch:DS-02
-3,Mahrukh Khan
-reg id:251201001
-batch:DS-02
-Project summary:
-                 SympTrace is a web-based health guidance system designed to help users understand their symptoms and identify the appropriate medical specialist. The platform allows users to enter symptoms and provides general health guidance without performing medical diagnosis. It also includes a BMI calculator to help users assess their body health status. Additionally, SympTrace offers basic insurance-related information for user awareness and a medicine ordering feature for convenience. The website is developed using HTML and CSS, with minimal JavaScript used only for button functionality. A consistent grid layout and typography are maintained across all pages to ensure a clean and simple design. The interface follows a white background theme to enhance readability and usability. SympTrace aims to provide preliminary guidance and support informed healthcare decisions.
+# SympTrace 🩺
+
+A responsive, web-based healthcare and symptom guidance platform designed to streamline initial medical consultation paths, assess health metrics, and organize medical resources.
+
+---
+
+## 🚀 Live Demo
+🔗 **[Launch SympTrace on GitHub Pages](https://harisnaveed007.github.io/AICT-Theory-Lab-Project-SympTrace-Group-11-)**
+
+---
+
+## ✨ Key Features
+
+* **Intelligent Symptom Guidance:** Analyzes user-entered symptoms to suggest appropriate medical specialists and evaluate case urgency.
+* **Health & Metric Calculators:** Integrated real-time BMI (Body Mass Index) calculator with dynamic category classification.
+* **Doctor & Specialist Directory:** Structured doctor profiles detailing clinical expertise and departments.
+* **Insurance & Coverage Information:** Clear overview of health insurance plans and policy guidance.
+* **Responsive Multi-Page Design:** Accessible and consistent navigation across desktop and mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** HTML5, CSS3, JavaScript (Vanilla ES6+)
+* **Deployment & Hosting:** GitHub Pages
+* **Tools & Environment:** Git, VS Code
+
+---
+
+## 📁 Project Structure
+
+```text
+SympTrace/
+├── Images/              # Project images, doctor portraits, and UI assets
+├── css/                 # Global stylesheets and responsive styling
+├── bmi.html             # BMI calculator interface and logic
+├── contact.html         # Contact and support page
+├── doctors.html         # Medical specialist directory
+├── index.html           # Main landing page
+├── insurance.html       # Health insurance information
+├── README.md            # Project documentation
+└── [profile pages]      # Individual team / specialist profile pages
